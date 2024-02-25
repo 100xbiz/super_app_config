@@ -1,6 +1,6 @@
 super_app:
   whatsapp_dummy:
-    number: 1234567890
+    number: "1234567890"
     message: "Hello, im dummy message from Config server"
 
   
