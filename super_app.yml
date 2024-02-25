@@ -1,0 +1,11 @@
+superapp:
+  name: super_app
+  version: 0.0.2
+  description: "v0.0.2 - Config server setup"
+
+  whatsapp_dummy:
+    enabled: true
+    number: 1234567890
+    message: "Hello, im dummy message from Config server"
+
+  
