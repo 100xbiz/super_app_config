@@ -1,0 +1,26 @@
+{
+  "telexConfig": {
+    "mqttTopic": "telex/user1234",
+    "devMode": true,
+    "batchSize": 10,
+    "minLogLevel": "debug",
+    "exportInterval": 1
+  },
+  "mqttConfig": {
+    "connectionString": "http://localhost:1883",
+    "subscriptionTopics": {
+      "incomingAuthResult/user1234" : "incomingAuthResultCallBack",
+      "incomingMessages/user1234" : "incomingMessageCallback",
+      "incomingInteractions/user1234" : "incomingInteractionsCallback",
+      "incomingNotification/user1234" : "incomingNotificationsCallBack"
+    },
+    "clientIdentifier": "user1234-windows",
+    "qos": 1,
+    "keepAlivePeriod": 30,
+    "port": 1883,
+    "autoReconnect": true,
+    "resubscribeOnAutoReconnect": true,
+    "maxConnectionAttempts": 5,
+    "reconnectDelay": 5
+  }
+}
