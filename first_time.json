@@ -3,5 +3,10 @@
     "connectionString": "http://localhost:1883",
     "newDeviceSubTopic": "newdevice/sub",
     "newDevicePubTopic": "newdevice/pub"
+  },
+  "AuthConfig" : {
+    "connectionString": "http://localhost:1883",
+    "requestOtpTopic" : "userAuth/requestOtp",
+    "authReustTopic" : "userAuth/authResult"
   }
 }
