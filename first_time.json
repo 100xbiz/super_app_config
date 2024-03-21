@@ -7,6 +7,6 @@
   "AuthConfig" : {
     "connectionString": "http://localhost:1883",
     "requestOtpTopic" : "userAuth/requestOtp",
-    "authReustTopic" : "userAuth/authResult"
+    "authResultTopic" : "userAuth/authResult"
   }
 }
