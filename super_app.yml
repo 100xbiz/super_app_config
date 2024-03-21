@@ -1,4 +1,3 @@
-super_app:
-  connection_string: 'http://localhost:1883'
-  new_device_sub_topic: 'newdevice/sub'
-  new_device_pub_topic: 'newdevice/pub'
+connectionString: 'http://localhost:1883'
+newDeviceSubTopic: 'newdevice/sub'
+newDevicePubTopic: 'newdevice/pub'
