@@ -1,6 +1,6 @@
 super_app:
-  whatsapp_dummy:
-    number: "1234567890"
-    message: "Hello, im dummy message from Config server"
-
+  connection_string :
+  new_device_sub_topic: 'newdevice/sub'
+  new_device_pub_topic: 'newdevice/pub'
+  
   
