@@ -1,3 +1,0 @@
-connectionString: 'http://localhost:1883'
-newDeviceSubTopic: 'newdevice/sub'
-newDevicePubTopic: 'newdevice/pub'
