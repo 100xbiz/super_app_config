@@ -1,12 +1,13 @@
 {
-  "firstTimeConfig": {
-    "connectionString": "http://localhost:1883",
-    "newDeviceSubTopic": "newdevice/sub",
-    "newDevicePubTopic": "newdevice/pub"
+  "TelexConfig" : {
+    "telexPubTopic" : "100x/superApp/telex",
+    "appOpenedCounter" : "superApp/appOpenedCounter"
   },
   "AuthConfig" : {
+    "requestOtpTopic" : "userAuth/requestOtp"
+  },
+  "MqttConfig" : {
     "connectionString": "http://localhost:1883",
-    "requestOtpTopic" : "userAuth/requestOtp",
-    "authResultTopic" : "userAuth/authResult"
+    "SubscriptionTopics": ["userAuth/authResult"]
   }
 }
