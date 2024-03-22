@@ -1,13 +1,17 @@
 {
-  "TelexConfig" : {
-    "telexPubTopic" : "100x/superApp/telex",
-    "appOpenedCounter" : "superApp/appOpenedCounter"
-  },
-  "AuthConfig" : {
-    "requestOtpTopic" : "userAuth/requestOtp"
-  },
-  "MqttConfig" : {
-    "connectionString": "http://localhost:1883",
-    "SubscriptionTopics": ["userAuth/authResult"]
-  }
+  "WsConfig": {
+      "isLoggingEnabled": true,
+      "autoReconnect": true,
+      "maxReconnectAttempts": 3,
+      "reconnectIntervalMillis": 5000,
+      "pingInterval": 30000
+    },
+    "TelexConfig": {
+      "telexPubTopic": "ws://localhost:8080/ws/telex",
+      "appOpenedCounterName": "Telex/counters/appOpened"
+    },
+    "AuthConfig": {
+      "requestOtpTopic": "ws://localhost:8080/ws/userAuth/requestOtp",
+      "incomingEventsTopicPrefix": "ws://localhost:8080/ws/"
+      }
 }
