@@ -12,6 +12,8 @@
     },
     "AuthConfig": {
       "authPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
-      "incomingEventsSubTopic": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/incoming-user1234/my-subscription"
-      }
+      },
+  "UserConfig" : {
+     "incomingEventsSubTopic": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/incoming-user1234/my-subscription"
+  }
 }
