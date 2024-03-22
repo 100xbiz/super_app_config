@@ -7,11 +7,11 @@
       "pingInterval": 30000
     },
     "TelexConfig": {
-      "telexPubTopic": "ws://localhost:8080/ws/telex",
+      "telexPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/telexTopic",
       "appOpenedCounterName": "Telex/counters/appOpened"
     },
     "AuthConfig": {
-      "requestOtpTopic": "ws://localhost:8080/ws/userAuth/requestOtp",
-      "incomingEventsTopicPrefix": "ws://localhost:8080/ws/"
+      "authPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
+      "incomingEventsSubTopic": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/incoming-user1234/my-subscription"
       }
 }
