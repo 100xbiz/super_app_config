@@ -17,7 +17,6 @@
       "histograms" : {},
       "minLogLevel" : "warning",
       "exportDuration" : 30,
-      
     },
   "AuthConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
