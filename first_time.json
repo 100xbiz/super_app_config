@@ -1,27 +1,27 @@
 {
-  "WsConfig": {
-      "isLoggingEnabled": true,
-      "autoReconnect": true,
-      "maxReconnectAttempts": 3,
-      "reconnectIntervalMillis": 5000,
-      "pingInterval": 30000
-    },
-  "TelexConfig": {
-      "telexPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/telexTopic",
-      "devMode" : true,
-      "batchSize" : 10,
-      "counters" :{
-        "appOpenedCounterName": "Telex/counters/appOpened"
+    "WsConfig": {
+        "isLoggingEnabled": true,
+        "autoReconnect": true,
+        "maxReconnectAttempts": 3,
+        "reconnectIntervalMillis": 5000,
+        "pingInterval": 30000
       },
-      "guages" :{},
-      "histograms" : {},
-      "minLogLevel" : "warning",
-      "exportDuration" : 30,
-    },
-  "AuthConfig": {
-      "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
+    "TelexConfig": {
+        "telexPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/telexTopic",
+        "devMode" : true,
+        "batchSize" : 10,
+        "counters" :{
+          "appOpenedCounterName": "Telex/counters/appOpened"
+        },
+        "guages" :{},
+        "histograms" : {},
+        "minLogLevel" : "warning",
+        "exportDuration" : 30
       },
-  "UserConfig" : {
-      "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/"
+    "AuthConfig": {
+        "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic"
+        },
+    "UserConfig" : {
+        "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/"
+    }
   }
-}
