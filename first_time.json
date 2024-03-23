@@ -6,7 +6,7 @@
       "reconnectIntervalMillis": 5000,
       "pingInterval": 30000
     },
-    "TelexConfig": {
+  "TelexConfig": {
       "telexPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/telexTopic",
       "devMode" : true,
       "batchSize" : 10,
@@ -19,10 +19,10 @@
       "exportDuration" : 30,
       
     },
-    "AuthConfig": {
+  "AuthConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
       },
   "UserConfig" : {
-     "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/"
+      "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/"
   }
 }
