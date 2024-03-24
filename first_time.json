@@ -13,7 +13,7 @@
         "counters" :{
           "appOpenedCounterName": "Telex/counters/appOpened"
         },
-        "guages" :{},
+        "gauges" :{},
         "histograms" : {},
         "minLogLevel" : "warning",
         "exportDuration" : 30
