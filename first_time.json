@@ -22,6 +22,12 @@
         "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic"
         },
     "UserConfig" : {
-        "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/"
+        "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/",
+          "theme": "default",
+          "locale": "en",
+          "isLeftNavBarCollapsed": true,
+          "dateFormat": "DD-MM-YYYY",
+          "timeFormat": 12,
+          "timezoneId": ""
     }
   }
