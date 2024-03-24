@@ -28,6 +28,6 @@
           "isLeftNavBarCollapsed": true,
           "dateFormat": "DD-MM-YYYY",
           "timeFormat": 12,
-          "timezoneId": ""
+          "timezoneId": "Asia/Kolkata"
     }
   }
