@@ -1,6 +1,6 @@
 {
   "AppConfig": {
-    "WsConfig": {
+    "wsConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
       "userPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/pub-user1234",
       "userSubTopic": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/sub-user1234/my-subscription",
@@ -13,7 +13,7 @@
       "pingInterval": 3000,
       "featureWorkerCount": 5
     },
-    "TelexConfig": {
+    "telexConfig": {
       "devMode": false,
       "batchSize": 10,
       "counters": {},
@@ -22,7 +22,7 @@
       "minLogLevel": "warning",
       "exportIntervalInSeconds": 30
     },
-    "UserConfig": {
+    "userConfig": {
       "userName": "",
       "deviceID": "",
       "deviceType": "",
