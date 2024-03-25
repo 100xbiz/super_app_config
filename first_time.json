@@ -1,4 +1,5 @@
 {
+ "AppConfig": {
     "WsConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
       "userPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/pub-user1234",
@@ -32,3 +33,4 @@
           "timezoneId": "Asia/Kolkata"
     }
   }
+}
