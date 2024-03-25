@@ -1,13 +1,18 @@
 {
     "WsConfig": {
-        "isLoggingEnabled": true,
-        "autoReconnect": true,
-        "maxReconnectAttempts": 3,
-        "reconnectIntervalMillis": 5000,
-        "pingInterval": 30000
-      },
+      "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
+      "userPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/pub-user1234",
+      "userSubTopic": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/sub-user1234/my-subscription",
+      "isLoggingEnabled": true,
+      "autoReconnect": true,
+      "maxReconnectAttempts": 3,
+      "reconnectIntervalMillis": 5000,
+      "exportTopicUrls": {},
+      "importTopicUrl": "",
+      "pingInterval": 3000,
+      "featureWorkerCount": 5
+    },
     "TelexConfig": {
-        "telexPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/telexTopic",
         "devMode" : true,
         "batchSize" : 10,
         "counters" :{
@@ -18,11 +23,7 @@
         "minLogLevel" : "warning",
         "exportDuration" : 30
       },
-    "AuthConfig": {
-        "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic"
-        },
     "UserConfig" : {
-        "incomingEventsSubTopicPrefix": "ws://localhost:8080/ws/v2/consumer/persistent/demoTenant/demoNamespace/",
           "theme": "default",
           "locale": "en",
           "isLeftNavBarCollapsed": true,
