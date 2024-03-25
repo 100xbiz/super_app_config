@@ -1,5 +1,5 @@
 {
- "AppConfig": {
+  "AppConfig": {
     "WsConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
       "userPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/pub-user1234",
@@ -14,25 +14,26 @@
       "featureWorkerCount": 5
     },
     "TelexConfig": {
-        "devMode" : true,
-        "batchSize" : 10,
-        "counters" :{
-          "appOpenedCounterName": "Telex/counters/appOpened"
-        },
-        "gauges" :{},
-        "histograms" : {},
-        "minLogLevel" : "warning",
-        "exportDuration" : 30
-      },
-    "UserConfig" : {
-          "userName": "",
-          "deviceID": "",
-          "theme": "default",
-          "locale": "en",
-          "isLeftNavBarCollapsed": true,
-          "dateFormat": "DD-MM-YYYY",
-          "timeFormat": 12,
-          "timezoneId": "Asia/Kolkata"
+      "devMode": false,
+      "batchSize": 10,
+      "counters": {},
+      "gauges": {},
+      "histograms": {},
+      "minLogLevel": "warning",
+      "exportIntervalInSeconds": 30
+    },
+    "UserConfig": {
+      "userName": "",
+      "deviceID": "",
+      "deviceType": "",
+      "deviceOs": "",
+      "themeMode": "system",
+      "locale": "en",
+      "isLeftNavBarCollapsed": true,
+      "dateFormat": "DD-MM-YYYY",
+      "timeFormat": 12,
+      "timezoneId": "Asia/Kolkata",
+      "textScaleFactor": 1.0
     }
   }
 }
