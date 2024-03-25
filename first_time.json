@@ -25,6 +25,8 @@
         "exportDuration" : 30
       },
     "UserConfig" : {
+          "userName": "",
+          "deviceID": "",
           "theme": "default",
           "locale": "en",
           "isLeftNavBarCollapsed": true,
