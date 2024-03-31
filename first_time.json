@@ -1,7 +1,6 @@
 {
   "AppConfig": {
     "version" : 1,
-    "isDemo" : false,
     "wsConfig": {
       "authPubTopicUrl": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/authPubTopic",
       "userPubTopic": "ws://localhost:8080/ws/v2/producer/persistent/demoTenant/demoNamespace/pub-user1234",
@@ -19,6 +18,7 @@
       "exportIntervalInSeconds": 30
     },
     "userConfig": {
+      "isDemo" : false,
       "userName": "",
       "deviceID": "",
       "deviceType": "",
